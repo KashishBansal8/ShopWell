@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ShopWell/static/css/main.9a6f7297.css",
+    "main.js": "/ShopWell/static/js/main.27e9ef61.js",
+    "static/js/453.65cc76d3.chunk.js": "/ShopWell/static/js/453.65cc76d3.chunk.js",
+    "static/media/star.png": "/ShopWell/static/media/star.c5f087fefef22c2e80ab.png",
+    "index.html": "/ShopWell/index.html",
+    "main.9a6f7297.css.map": "/ShopWell/static/css/main.9a6f7297.css.map",
+    "main.27e9ef61.js.map": "/ShopWell/static/js/main.27e9ef61.js.map",
+    "453.65cc76d3.chunk.js.map": "/ShopWell/static/js/453.65cc76d3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9a6f7297.css",
+    "static/js/main.27e9ef61.js"
+  ]
+}
