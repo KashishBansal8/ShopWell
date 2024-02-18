@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.shopwell-app {
+    margin: 20px 0;
+    gap: 30px;
+}
+
+.product-page {
+    flex-direction: column;
+    gap: 30px;
+    margin: 0 20px;
+}
+
+.product-page .filter-product-card-cont {
+    display: flex;
+    gap: 35px;
+}

@@ -1,0 +1,21 @@
+.product-header {
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.product-header .logo {
+    font-size: 30px;
+    background-image: linear-gradient(-90deg, #e23939, #a0a014);
+    font-style: oblique;
+    color: floralwhite;
+    border-radius: 5px;
+}
+
+.product-header .cart {
+    height: 30px;
+}
+
+.product-header .cart img {
+    height: inherit;
+}

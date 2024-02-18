@@ -1,0 +1,33 @@
+.categories-section {
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.category-card {
+    align-items: center;
+    justify-content: center;
+    gap: 7px;
+}
+
+.category-card img {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    object-position: center;
+    cursor: pointer;
+}
+
+.category-card .category-title {
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.category-card .selected-category {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: rgb(102, 49, 49);
+    font-weight: bold;
+}

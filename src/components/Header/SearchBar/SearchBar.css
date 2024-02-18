@@ -1,0 +1,22 @@
+.search-bar-cont {
+    width: 45%;
+}
+
+.search-bar-cont input {
+    width: 90%;
+    border-radius: 40px 0 0 40px;
+    padding: 12px 15px 12px 20px;
+    font-size: 16px;
+}
+
+.search-bar-cont .search-bar-button {
+    background: none;
+    border-left: none;
+    width: 10%;
+    border-radius: 0px 40px 40px 0;
+    cursor: pointer;
+}
+
+.search-bar-cont .search-bar-button img {
+    width: 25%;
+}
