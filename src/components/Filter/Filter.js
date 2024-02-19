@@ -20,7 +20,6 @@ const Filter = () => {
     const selectedCategoryProductList = useSelector((store) => store.category.categoryProductList);
     const dispatch = useDispatch();
 
-    const productList = Array.isArray(products) ? products : products.products;
     const constantProductList = Array.isArray(allProducts) ? allProducts : allProducts.products;
 
     const selecteCategoryBrandList = selectedCategory && constantProductList.filter((product) => {
@@ -34,13 +33,12 @@ const Filter = () => {
 
     const [priceFilterValue, setPriceFilterValue] = useState(priceOptions[0].value);
     const [brandFilterValue, setBrandFilterValue] = useState(brandOptions[0]);
-
     const [ratingFilterValue, setRatingFilterValue] = useState(ratingOptions[0].value);
 
-    let filteredProductList = selecteCategoryBrandList.length ? [...selecteCategoryBrandList] : [...productList];
+    let filteredProductList = selecteCategoryBrandList.length ? [...selecteCategoryBrandList] : [...constantProductList];
 
     const initFilter = () => {
-        let initProductFilteredList = selecteCategoryBrandList.length ? [...selecteCategoryBrandList] : [...productList];
+        let initProductFilteredList = selecteCategoryBrandList.length ? [...selecteCategoryBrandList] : [...constantProductList];
         initProductFilteredList = initProductFilteredList.sort((a, b) => {
             return b.price - a.price;
         });
